@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .ceo {
+        padding: 30px;
+        max-width: 400px;
+        width: 100%;
+    }
+
+    a {
+        text-decoration: none;
+        color: #0054c4;
+    }
+
+    .main {
+        display: flex;
+    }
+
+    .container {
+        /* margin-left: 10px; */
+        max-width: 800px;
+        width: 100%;
+        border-left: 20px solid orange;
+        padding: 30px 30px 0 30px;
+    }
+
+    .section {}
+
+    .p1 {
+        padding: 10px;
+        color: orange;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .p2 {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    span {
+        border-bottom: 2px solid black;
+
+    }
+
+    .ceoimg {
+        border-radius: 300px;
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        /* border: 1px solid black */
+        box-shadow: 0 10px 50px 0 white, 0 6px 20px 0 orange;
+    }
+
+    .padding {
+        padding-bottom: 15px;
+    }
+
+    .icon {
+        display: flex;
+        gap: 20px;
+        padding-top: 10px;
+        align-items: center;
+        /* justify-content: center; */
+        justify-content: space-evenly;
+    }
+
+    .iconimg {
+        /* background-color: orange; */
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .logoimg {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .section2logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .section2logo>img {
+        height: 50px;
+        width: 150px;
+    }
+
+    .text {
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    @media screen and (max-width:768px) {
+        .main {
+            flex-direction: column;
+        }
+
+        .ceo {
+            max-width: 100%;
+        }
+
+        .container {
+            border: none;
+            border-top: 20px solid orange;
+        }
+    }
+
+    @media screen and (max-width:512px) {
+        .logoimg {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            place-items: center;
+        }
+    }
+</style>
+
+<body>
+    <main class="main" id="main">
+        <div class="ceo">
+            <h1 class="h1"><span>Meet Our CEO</span></h1>
+            <img src="assets/icons/ManojSir.SVG" alt="" width="130px" class="ceoimg">
+            <p class="p1">Manoj Kumar</p>
+            <p class="p2">The visionary technology and engineering leader with 20 years of experience. He
+                specializes in cloud computing, user experience and customer service and excels in innovation,
+                product strategy and hands-on software prototyping. With meticulous attention to detail, Mr
+                Manoj creates practical and disruptive solutions and shapes the technology landscape. His
+                exceptional leadership skills inspire collaboration and empower teams to exceed expectations.
+                Get ready for a remarkable journey as Mr. Manoj redefines possibilities to shape the future of
+                technology.</p>
+            <div class='icon'>
+                <div class='iconimg'>
+                    <a href="https://www.facebook.com/hr365apps/">
+                        <img src="assets/image/facebook.png" alt="" width="30px"></a>
+                </div>
+                <div class='iconimg'>
+                    <a href="https://www.linkedin.com/company/hr365/">
+                        <img src="assets/image/linkdin.png" alt="" width="30px"></a>
+                </div>
+                <div class='iconimg'>
+                    <a href="https://twitter.com/HR365_HRMS">
+                        <img src="assets/image/tw.png" alt="" width="30px"></a>
+                </div>
+                <div class='iconimg'>
+                    <a href="https://www.youtube.com/@hr365">
+                        <img src="assets/image/youtube.png" alt="" width="30px"></a>
+                </div>
+            </div>
+            <p class="text"><a href="https://www.hr365.us/">www.HR365.com</a></p>
+        </div>
+        <div class="container">
+            <section class="section">
+                <div>
+                    <div class=" section2logo">
+                        <a href="https://www.hr365.us/">
+                            <img src="assets/image/logo.png" alt="" width="150px" class="">
+                        </a>
+                        <img src="assets/image/Cubiclogo.png" alt="" width="150px">
+                    </div>
+                    <p class="padding">We are pleased to announce that our CEO, Mr. Manoj Kumar, will be visiting the
+                        United States this month. During his visit, he expressed great interest in meeting with you and
+                        gaining a deeper insight into our valued partnership.
+                    </p>
+                    <p class="padding"> As he is keen on fostering strong relationships with our valued customers like
+                        you, he also appreciates the opportunity to talk to you about your business goals, challenges,
+                        and future collaborations.
+                    <p class="padding">We believe this meeting will be an excellent platform for you to interact
+                        directly with him, share your thoughts and discuss your ideas and concerns. It will also give us
+                        the opportunity to explore how we can further expand our partnership to achieve mutual growth
+                        and success.
+                    </p>
+                    <p class="padding">We request your availability to meet with Mr. Manoj during his visit to your
+                        office. He will be available from June 19-22, and we would be grateful if you could let us know
+                        your preferred date and time for the meeting. Please let us know what topics or agenda items you
+                        would like to discuss during the meeting, and we will do our best to accommodate your requests.
+                    </p>
+                    <p class="padding">Thank you in advance for this invitation. We look forward to your positive
+                        response and the opportunity to arrange a meeting between you and our esteemed CEO.</p>
+                </div>
+                <div class='cubiclogo'>
+                    <div class='logoimg'>
+                        <a href="https://www.hr365.us/sharepoint-ticketing-system-hr-helpdesk-ms-teams-365/">
+                            <img src="assets/image/help-desk.png" alt="" width="80px"></a>
+                        </a>
+                        <a href="https://www.hr365.us/sharepoint-employee-directory-microsoft-teams-spfx/">
+                            <img src="assets/image/SPFX Employee Directory 300x300.jpg" alt="" width="80"></a>
+                        </a>
+                        <a href="https://www.hr365.us/global-asset-management-software/">
+                            <img src="assets/image/asset-management.png" alt="" width="80px"></a>
+                        </a>
+                        <a href="https://www.hr365.us/employee-onboarding-software/">
+                            <img src="assets/image/employee-onboarding.png" alt="" width="80px"></a>
+                        </a>
+                        <a href="https://www.hr365.us/time-off-manager/">
+                            <img src="assets/image/time-off-manager.png" alt="" width="80px"></a>
+                        </a>
+                        <a href="https://www.hr365.us/employee-performance-management-software-office-365/">
+                            <img src="assets/image/performance-management-Outer.png" alt="" width="80px"></a>
+                        </a>
+                        <a href="https://www.hr365.us/office-365-microsoft-time-tracking/">
+                            <img src="assets/image/timesheets.png" alt="" width="80px"></a>
+                        </a>
+                        <a href="https://www.hr365.us/">
+                            <img src="assets/image/Contract Management Logo only.png" alt="" width="80px"></a>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+<script src="assets/javascript/script.js"></script>
+
+</html>
